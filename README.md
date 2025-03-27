@@ -78,14 +78,19 @@ The property tax database includes extensive information about tax assessments t
 Methodology
 
 1- Data Cleaning and Preprocessing:
+
 •	The first step involves loading property tax data followed by primary assessment of information in this dataset.
 •	The process handles data problems in crucial tax payment field entries including assessed values and tax amounts.
 •	The dataset requires standardized property classification systems with uniform data field conventions.
+
 2- Statistical Analysis and Data Distribution:
+
 •	The data analysis includes calculating the average value through three measures such as mean value and median value and standard deviation of property assessments and taxes.
 •	Data scientists will examine the distribution patterns of data that includes properties grouped by type and settled in different locations.
 •	The analysis detects tax assessment outliers through statistical methods that use interquartile range (IQR) and z-scores.
+
 3- Identifying Trends and Anomalies:
+
 •	We should employ data visualization methods for visualizing tax value shifts from year to year as well as between different property categories.
 •	The assessment inconsistency detection process includes the comparison of assessments between identical properties.
 •	The analysis should present how policy implications appear through observed differences in property tax distribution.
@@ -129,12 +134,17 @@ The available records include tax data for properties as follows:
 Methodology
 
 1.Data Aggregation and Summarization
+
 •	The dataset requires cleaning up and preprocessing to resolve data entry issues with missing or inconsistent information.
 •	The summary statistics for both tax amounts and assessed values consist of mean averages and median values together with standard deviations.
+
 2.Comparative Analysis by Location and Property Type
+
 •	The analysis examines the differences between tax amounts which occur due to the varying geographic locations.
 •	An analysis should be conducted to detect if property tax distributions between types show significant variations.
+
 3.Statistical Visualization
+
 •	This system uses Histograms and Boxplots to show the distribution pattern and measurement spans of tax values.
 •	Heatmaps: Identify geographic disparities in property tax assessments.
 •	The bar chart analysis shows the amount of tax variations between various property categories.
@@ -176,20 +186,33 @@ This analysis depends on three different datasets as part of its research proces
 Methodology
 
 1.Data Collection and Preparation:
+
 •	Declutter and normalize all datasets obtained from different sources to establish uniformity along with factual precision.
 •	The data receives normalization treatment to achieve relative equality between properties of different types and areas.
+
 2.Outlier Detection:
+
 •	A statistical analysis involving Z-scores and IQR analysis should be used for outlier detection in property tax assessments to locate irregular tax values which could point to assessment discrepancies.
+
 3.Correlation Analysis:
+
 •	The relationship analysis will establish significant factors which affect tax values based on characteristics like location or property size to determine assessment discrepancies.
 •	This analysis uses regression to establish the degree of influence which influencing factors have on assessment values.
+
 4.Data Quality Investigation:
+
 •	Research any issues which exist in data elements including empty spaces or incorrect entries because they might generate assessment value misunderstandings.
+
 5.Segmentation Analysis:
+
 •	The comparison of property assessment discrepancies should be conducted through categorization of properties into residential and commercial sections to detect variations between different groups.
+
 6.Root Cause Analysis:
+
 •	Tax assessors and local officials need to be interviewed to obtain information about the assessment procedures and potential assessment errors and biases.
+
 7.Synthesis of Findings:
+
 •	A synthesis of quantitative data with qualitative research needs to be used to identify the primary elements behind property tax irregularities.
 
 Tools and Technologies
@@ -238,12 +261,17 @@ The Vancouver property tax dataset contains information about tax records togeth
 Methodology
 
 1.Handling Missing and Incorrect Data:
+
 •	The approach will determine whether to fill in missing values through imputation or eliminate them based on the affected data's magnitude.
 •	The system needs to recognize and solve mistakes within its database including instances where values are negative or tax assessments fall outside normal parameters.
+
 2.Standardizing Property Classification:
+
 •	A consistent method should be implemented to classify properties between residential and commercial and industrial types so the dataset remains uniform.
 •	All discrepancies in property types must be checked for accuracy before they match tax assessment classifications.
+
 3.Data Formatting and Structuring:
+
 •	The team will modify unorganized data through proper formatting by adopting methods like date standardization and address normalization.
 •	The data needs proper organization for analysis through renaming columns and applying uniform measurement units to property size properties and tax values.
 
@@ -292,31 +320,46 @@ The project will focus on the following key areas:
 Methodology
 
 1.Current State Assessment:
+
 •	An assessment should take place to review the current property tax database while evaluating both present data flaws and their basic origins together with missing or incorrect data instances.
 •	The assessment will focus on determining important data elements that affect tax assessment quality including tax values together with property types and ownership data points.
+
 2.Data Profiling:
+
 •	The use of data profiling tools allows assessment of data quality through identification of missing data completeness and duplicates together with data validity validation and value consistency measurements and entry accuracy checks.
 •	Create a documented report of the observed problems to determine urgent maintenance needs followed by procedures for cleaning order.
+
 3.Establish Data Quality Metrics:
+
 •	Errors rates along with duplicates and missing entries and tax standards adherence and intracompany data standards compliance will serve as metrics to assess and monitor the dataset’s quality.
 •	Key Performance Indicators (KPIs) should be deployed to track data reliability and accuracy development because they will monitor enhancements over time.
+
 4.Data Cleansing Processes:Procedures must be implemented to fix data errors through the following actions:
+
 •	The database system implements a process to eliminate duplicate records through unique identifier matching like property ID.
 •	The procedure involves unifying property tax categories including residential and commercial zones as well as creating uniform property classification values.
 •	The system utilizes acceptable methods for filling empty data points with methods including mean imputation and value propagation for linked fields.
 •	Users must perform data correction activities involving tax value ranges and date formats as well as inconsistent tax assessment values.
+
 5.Validation Rules and Procedures:
+
 •	The entire system will have validation rules to screen new property tax entries which must comply with established requirements related to format structure and data precision.
 •	The system should automatically detect new errors which occur during data entry activities to prevent poor-quality information from contaminating the database.
+
 6.Monitoring and Reporting:
+
 •	The use of real-time data quality monitoring dashboards combined with tools should enable the organization to visualize important metrics track data quality trends during specific periods.
 •	The system should trigger notifications when quality standards encounter substantial deviations such as excessive missed values or raised error numbers.
 •	Staff should receive scheduled reports about data quality performance trends while observing key metrics that include tax assessment accuracy and property classification consistency alongside missing data.
+
 7.Training and Best Practices:
+
 •	The organization should create educational materials for training staff members including tax assessors and data analysts about data quality standards and proper data entry protocols.
 •	Staff members should receive ongoing support to develop awareness about quality data through a system that promotes immediate identification and resolution of existing issues.
 •	The system requires a user-driven feedback procedure which will enhance data quality methods through employee observations and dataset performance measurements.
+
 8.Feedback Mechanism:
+
 •	Staff members and data users should have an ongoing system to alert the team about quality problems and recommend improvements.
 •	The system development method includes periodic reviews to evaluate and optimize data quality procedures which allow the system to adjust to new operational requirements based on stakeholder feedback.
 
